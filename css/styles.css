@@ -882,7 +882,7 @@ img {
     width: 16px;
     height: 16px;
     margin-right: 8px;
-    color: transparent;
+    color: var(--cloud);
     fill: transparent;
 
     border-radius: 2px;
@@ -894,7 +894,7 @@ img {
 .agreement-checkbox-icon {
     fill: currentColor;
 }
-.modal-form-input:checked + .agreement-checkbox {
+input:checked + label > span {
     background-color: var(--ocean);
     border: none;
     fill: var(--cloud);
