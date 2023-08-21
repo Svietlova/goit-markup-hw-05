@@ -515,9 +515,6 @@ img {
 .social-icon {
     fill: currentColor;
 }
-.footer-subscribe {
-    
-}
 .footer-form {
     display: flex;
     align-items: center;
@@ -795,9 +792,6 @@ img {
 
     margin-bottom: 16px;
 }
-.modal-form {
-
-}
 .modal-form-item {
     margin-bottom: 8px;
 }
@@ -897,11 +891,32 @@ img {
 .agreement-checkbox-icon {
     fill: currentColor;
 }
-input[type="checkbox"]:checked + .agreement-checkbox {
+input:checked + .agreement-checkbox {
     background-color: var(--ocean);
     border: none;
     color: var(--cloud);
 }
 .modal-form-link {
     color: var(--iris);
+}
+.modal-form-btn {
+    background-color: var(--iris);
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: var(--white);
+    cursor: pointer;
+    
+    display: block;
+    min-width: 169px;
+    height: 56px;
+    margin: 0 auto;
+    border-radius: 4px;
+    border: none;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    padding: 16px 32px;
+    
+    transition: background-color var(--animation);
 }
