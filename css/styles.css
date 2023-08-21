@@ -897,7 +897,7 @@ img {
 .modal-form-input:checked + .agreement-checkbox {
     background-color: var(--ocean);
     border: none;
-    color: var(--cloud);
+    fill: var(--cloud);
 }
 .modal-form-link {
     color: var(--iris);
