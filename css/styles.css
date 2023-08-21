@@ -819,8 +819,7 @@ img {
 
     transition: border-color var(--animation);
 }
-.modal-form-input:focus,
-.modal-form-comment:focus  {
+.modal-form-input:focus {
     border-color: var(--iris);
 }
 .modal-form-icon {
@@ -857,6 +856,9 @@ img {
     resize: none;
 
     transition: border-color var(--animation);
+}
+.modal-form-comment:focus {
+    border-color: var(--iris);
 }
 .modal-form-comment::placeholder {
     color: rgba(46, 47, 66, 0.40);
