@@ -894,7 +894,7 @@ img {
 .agreement-checkbox-icon {
     fill: currentColor;
 }
-input:checked + .agreement-checkbox {
+.modal-form-input:checked + .agreement-checkbox {
     background-color: var(--ocean);
     border: none;
     color: var(--cloud);
